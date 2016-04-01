@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "The Dome",
+    "description": "Replaces the words Rogers Centre with SkyDome",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
