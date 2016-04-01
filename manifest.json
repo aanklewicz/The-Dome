@@ -3,6 +3,9 @@
     "name": "The Dome",
     "description": "Replaces the words Rogers Centre with SkyDome",
     "version": "0.1",
+    "icons": { "16": "Dome16.png",
+           "48": "Dome48.png",
+          "128": "Dome128.png" },
     "content_scripts": [
         {
             "matches": [
